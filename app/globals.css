@@ -6,7 +6,7 @@
 
 html, body {
   overflow-x: hidden;
-  background-color: #000925;
+  background-image: url("../public/matrix.gif");
 }
 
 main {
@@ -22,7 +22,17 @@ h3 {
   color: #000105;
   font-size: 1.8rem;
 }
-
+.main-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start-quiz-section{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 button {
   padding: 16px 8px;
   width: 100%;
@@ -32,6 +42,9 @@ button {
   cursor: pointer;
   background-color: #808080;
   color: #f8f8f8;
+}
+.start-quiz-btn{
+  width: 30vw;
 }
 
 .btn-disabled {

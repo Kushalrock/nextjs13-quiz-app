@@ -56,12 +56,8 @@ const page = () => {
 
   return (
     <div className='container'>
-      <h1>Quiz Page</h1>
-      <div>
-        <h2>
-          Question: {activeQuestion + 1}
-          <span>/{questions.length}</span>
-        </h2>
+      <div className='main-head'>
+      <h1>TUX TRIVIA</h1>
       </div>
       <div>
         {!showResult ? (
@@ -105,7 +101,7 @@ const page = () => {
             <p>
               Wrong Answers: <span>{result.wrongAnswers}</span>
             </p>
-            <button onClick={() => window.location.reload()}>Restart</button>
+            
           </div>
         )}
       </div>
